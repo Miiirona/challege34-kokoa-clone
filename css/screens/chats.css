@@ -1,0 +1,30 @@
+.screen-header__title{
+    display: flex;
+    align-items: flex-end;
+}
+
+.non-active-chat{
+    display: flex;
+    font-size: 20px;
+    margin-right: 13px;
+}
+
+.openchat-title{
+    display: flex;
+    align-items: center;
+}
+.member-count{
+    font-size: 13px;
+    color: rgba(148, 168, 173, 0.8);
+    margin-left: 10px;
+}
+.user-component__column:last-child{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(148, 168, 173);
+}
+.user-component__column:last-child span{
+    margin: 3px 0;
+}

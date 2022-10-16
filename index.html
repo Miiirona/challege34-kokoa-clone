@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Clone!</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-plane-up"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>03:21</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="far fa-bell-slash"></i>
+        <span>66%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <header>
+      <span>Welcome to MelodyTalk</span>
+      <p>If you have a MelodyTalk Account, log in with your MelodyCode.</p>
+    </header>
+
+    <form class="login-form">
+      <input type="text" required placeholder="ex.) M0000000SY" />
+      <input type="password" required placeholder="Password" />
+    </form>
+
+    <form class="buttons" action="friends.html" method="get">
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find MelodyCode or Password</a>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/d4c408cf3d.js"
       crossorigin="anonymous"

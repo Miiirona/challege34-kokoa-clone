@@ -1,0 +1,28 @@
+#friends-names-display{
+    display: block;
+    padding: 15px;
+    background-color: rgba(148, 168, 173,0.1);
+    font-size: 15px;
+    margin-top: 0;
+}
+#friends-names-display i{
+    margin: 0 3px;
+    color: rgba(148, 168, 173);
+}
+
+.roll-friends{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(148, 168, 173,0.2);
+    padding: 20px 0;
+    color: rgba(148, 168, 173);
+    font-size: 15px;
+}
+.music-box{
+    color: rgba(148, 168, 173);
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,17 @@
+.something-new{
+    color: rgba(0,0,0,0);
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+.new-message{
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
