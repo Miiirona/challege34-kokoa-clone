@@ -4,6 +4,7 @@
     margin: 20px;
     align-items: center;
 }
+
 .user-component__column:first-child{
     display: flex;
     align-items: center;

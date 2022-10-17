@@ -8,6 +8,11 @@
 .screen-header h1{
     font-size: 30px;
 }
+.screen-header__icons{
+    display: flex;
+    align-items: center;
+}
+
 .screen-header i {
     margin-left: 15px;
 }

@@ -43,14 +43,16 @@
     color: var(--border-color);
 }
 .recent-message{
-    padding: 0 20px;
+    padding: 10px 20px;
     display: flex;
     overflow-x: hidden;
     width: 90%;
+
 }
 .recent-message__member{
     position: relative;
     margin-right: 15px;
+
 }
 .recent-message__member img{
     width: 130px;
@@ -58,6 +60,7 @@
     opacity: 0.5;
     border: 2px solid #0044AA;
     border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 1, 32, 0.5);
 }
 .recent-message__member__text{
     
