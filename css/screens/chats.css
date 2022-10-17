@@ -2,13 +2,11 @@
     display: flex;
     align-items: flex-end;
 }
-
 .active-chat{
     display: flex;
     font-size: 20px;
     margin-left: 13px;
 }
-
 .openchat-title{
     display: flex;
     align-items: center;
@@ -18,22 +16,14 @@
     color: rgba(148, 168, 173, 0.8);
     margin-left: 10px;
 }
-
-
-.user-component__column:last-child{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: flex-end;
-    color: rgba(148, 168, 173);
-}
-.user-component__column:last-child span{
-    margin: 3px 0;
-}
 .no-new-message{
     opacity: 0;
 }
-
 #chats .user-component{
     margin: 20px 20px 30px 20px;
 }
+
+ .main-chat{
+    width: 100%;
+    box-sizing: border-box;
+ }

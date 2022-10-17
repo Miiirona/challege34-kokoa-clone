@@ -1,15 +1,13 @@
 .user-component{
-    display: flex;
     justify-content: space-between;
     margin: 20px;
-    align-items: center;
-}
+}    
 
+.user-component,
 .user-component__column:first-child{
     display: flex;
     align-items: center;
 }
-
 .user-component__avatar--xl{
     width: 40px;
     height: 40px;
@@ -55,6 +53,14 @@
     margin-top: 8px;
     font-size: 15px;
 }
+.user-component__column:last-child{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(148, 168, 173);
+}
 .user-component__column:last-child span{
     font-size: 13px;
+    margin: 3px 0;
 }

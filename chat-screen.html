@@ -8,7 +8,7 @@
     <title>Friends</title>
   </head>
 
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -26,41 +26,32 @@
 
     <div class="settings-header">
       <div class="settings-header__column">
-        <i class="fa-solid fa-chevron-left"></i>
+        <a href="chats.html"><i class="fa-solid fa-chevron-left"></i></a>
       </div>
       <div class="settings-header__column">
-        <h1>settings</h1>
+        <h1>SilverLight</h1>
       </div>
       <div class="settings-header__column">
         <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i>
       </div>
     </div>
 
-    <nav class="nav-bar">
-      <ul class="nav-list">
-        <li>
-          <a href="friends.html"
-            ><img src="imgs/멜봉.png" width="45px" height="45px"
-          /></a>
-        </li>
-        <li>
-          <a href="chats.html" class="nav-bar__chats">
-            <img src="imgs/empty chat.png" width="45px" height="auto" />
-            <div class="new-messages">321</div>
-          </a>
-        </li>
-        <li>
-          <a href="find.html">
-            <img src="imgs/eye.png" width="45px" height="auto" />
-          </a>
-        </li>
-        <li>
-          <a href="more.html">
-            <img src="imgs/dots.png" width="45px" height="auto" />
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div class="main-chat">
+      <div class="chat__date">Monday, October 17, 2022</div>
+
+      <div class="message-row">
+        <img src="imgs/음표2.png" />
+        <div class="message-row__content">
+          <span class="message__author">mugcub</span>
+          <div class="message__info">
+            <span class="message__bubble">what's your fav. video?</span>
+            <span class="message__time">06:58</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/d4c408cf3d.js"
       crossorigin="anonymous"

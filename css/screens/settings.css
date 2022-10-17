@@ -1,11 +1,28 @@
 .settings-header{
     margin: 50px 20px 40px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+.settings-header__column{
+    width: 33%;
+}
+.settings-header__column:first-child{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
 }
 .settings-header__column:nth-child(2){
     font-size: 30px;
+    text-align: center;
+}
+.settings-header__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.settings-header__column:last-child i{
+    margin-left: 15px;
 }
 .settings-menu{
     padding: 30px 0;
