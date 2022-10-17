@@ -1,4 +1,6 @@
-
+.main{
+    overflow-y: hidden;
+}
 .recommend{
     display: flex;
     justify-content: space-between;

@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/something-new.css";
 @import "components/find-menu.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";
@@ -25,4 +26,5 @@ body{
     font-family: 'Balsamiq Sans', cursive;
     color: #000e20;
     font-size: 17px;
+
 }
