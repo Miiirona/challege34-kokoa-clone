@@ -3,10 +3,10 @@
     align-items: flex-end;
 }
 
-.non-active-chat{
+.active-chat{
     display: flex;
     font-size: 20px;
-    margin-right: 13px;
+    margin-left: 13px;
 }
 
 .openchat-title{
@@ -27,4 +27,11 @@
 }
 .user-component__column:last-child span{
     margin: 3px 0;
+}
+.no-new-message{
+    opacity: 0;
+}
+
+#chats .user-component{
+    margin: 20px 20px 30px 20px;
 }

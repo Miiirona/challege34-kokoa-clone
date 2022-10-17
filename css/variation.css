@@ -1,4 +1,6 @@
 :root{
     --blue: #5599FF;
     --darkblue: #0066ff;
+    --lightblue: rgba(148, 168, 173);
+    --border-color: rgba(148, 168, 173,0.2);
 }

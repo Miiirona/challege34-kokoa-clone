@@ -19,3 +19,24 @@ ul{
     margin: 0;
 
 }
+.nav-bar__chats{
+    position: relative;
+    margin: 0;
+}
+
+.new-messages{
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    position: absolute;
+    top: -30px;
+    right: -17px;
+
+    padding: 1px;
+}

@@ -1,0 +1,88 @@
+
+.recommend{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 20px 0;
+    border-top: 1px solid var(--border-color);
+    color: var(--lightblue);
+    font-size: 15px;
+}
+.recommend-video{
+    margin: 10px 20px 20px 20px;
+    font-size: 15px;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    align-items: center;
+}
+.recommend-video img{
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.recommend-video a{
+    text-align: left;
+    line-height: 1.5;
+    margin: 0;
+}
+.recommend--more{
+    color: var(--lightblue);
+    display: flex;
+    justify-content: center;
+}
+.recent-message-header{
+    padding: 20px 0;
+    margin: 20px 20px 0 20px;
+    border-top: 1px solid var(--border-color);
+    font-size: 15px;
+    color: var(--lightblue);
+    display: flex;
+    justify-content: space-between;
+
+}
+.recent-message-header div:last-child{
+    color: var(--border-color);
+}
+.recent-message{
+    padding: 0 20px;
+    display: flex;
+    overflow-x: hidden;
+    width: 90%;
+}
+.recent-message__member{
+    position: relative;
+    margin-right: 15px;
+}
+.recent-message__member img{
+    width: 130px;
+    height: 140px;
+    opacity: 0.5;
+    border: 2px solid #0044AA;
+    border-radius: 10px;
+}
+.recent-message__member__text{
+    
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+
+}
+.recent-message__member__text span{
+    margin: 10px;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.recent-message__member__text span:first-child{
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(0, 15, 56, 0.8);
+    position: absolute;
+    top: 0;
+}
+.recent-message__member__text span:last-child{
+    color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+}

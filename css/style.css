@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Poor+Story&display=swap');
 @import "variation.css";
 @import "reset.css";
 
@@ -9,16 +9,18 @@
 @import "components/screenheader.css";
 @import "components/user-component.css";
 @import "components/something-new.css";
+@import "components/find-menu.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
 
 body{
     background-color: #d7e3f4;
     font-family: 'Balsamiq Sans', cursive;
     color: #000e20;
     font-size: 17px;
-
 }

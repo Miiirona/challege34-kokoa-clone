@@ -1,0 +1,17 @@
+.find-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.find-menu__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+
+}
+.find-menu__menu img{
+    margin-bottom: 25px;
+}

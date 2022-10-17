@@ -1,7 +1,7 @@
 .user-component{
     display: flex;
     justify-content: space-between;
-    margin: 15px 20px;
+    margin: 20px;
     align-items: center;
 }
 .user-component__column:first-child{
@@ -16,6 +16,7 @@
     background-color: #aaccff;
     border-radius: 25px;
     margin-right: 20px;
+    box-shadow: 0 3px 10px rgba(0, 102, 255,0.6);
 }
 .user-component__avatar--xs{
     width: 30px;
@@ -24,28 +25,35 @@
     background-color: #aaccff;
     border-radius: 10px;
     margin-right: 20px;
+    box-shadow: 0 3px 10px rgba(0, 102, 255,0.6);
 }
 .user-component__avatar--mid{
     width: 60px;
     height: 60px;
     border-radius: 15px;
     margin-right: 20px;
+    box-shadow: 0 3px 10px rgba(112, 142, 167, 0.8);
 }
 .user-component__column__text{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     height: 40px;
+    cursor: pointer;
 }
 .user-component__column__text__name{
     font-size: 20px;
     font-weight: 700;
 }
 .user-component__column__text__name--normal{
-    font-size: 20px;
+    font-size: 18px;
 }
 .user-component__column__text__text{
-    font-size: 15px;
-    color: rgba(148, 168, 173);
+    color: var(--lightblue);
     font-weight: lighter;
+    margin-top: 8px;
+    font-size: 15px;
+}
+.user-component__column:last-child span{
+    font-size: 13px;
 }
